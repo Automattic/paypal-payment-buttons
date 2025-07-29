@@ -4,17 +4,17 @@
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-autoloader": "@dev",
-		"automattic/jetpack-assets": "@dev",
-		"automattic/jetpack-composer-plugin": "@dev",
-		"automattic/jetpack-paypal-payments": "@dev",
-		"automattic/jetpack-blocks": "@dev"
+		"automattic/jetpack-autoloader": "^5.0.9",
+		"automattic/jetpack-assets": "^4.3.1-alpha",
+		"automattic/jetpack-composer-plugin": "^4.0.5",
+		"automattic/jetpack-paypal-payments": "^0.3.0",
+		"automattic/jetpack-blocks": "^3.1.0"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-changelogger": "@dev",
+		"automattic/jetpack-changelogger": "^6.0.5",
 		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "@dev"
+		"automattic/phpunit-select-config": "^1.0.3"
 	},
 	"autoload": {
 		"classmap": [
@@ -43,15 +43,6 @@
 			"pnpm run watch"
 		]
 	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../../packages/*",
-			"options": {
-				"monorepo": true
-			}
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
@@ -65,6 +56,6 @@
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
 		},
-		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_1_0"
+		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_2_0_alpha"
 	}
 }

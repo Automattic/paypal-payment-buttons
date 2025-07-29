@@ -1,0 +1,873 @@
+{
+    "packages": [
+        {
+            "name": "automattic/jetpack-a8c-mc-stats",
+            "version": "3.0.5",
+            "version_normalized": "3.0.5.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-a8c-mc-stats",
+                "reference": "1400d39c9b76bde42f63e531914d4d0a2e2b67a7"
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-a8c-mc-stats",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-a8c-mc-stats/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Used to record internal usage stats for Automattic. Not visible to site owners.",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-a8c-mc-stats"
+        },
+        {
+            "name": "automattic/jetpack-admin-ui",
+            "version": "0.5.10",
+            "version_normalized": "0.5.10.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
+                "reference": "5c6a76a7dbb54b32462c1e3dd6ab7da466ec2482"
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/jetpack-logo": "^3.0.5",
+                "automattic/jetpack-test-environment": "@dev",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-admin-ui",
+                "textdomain": "jetpack-admin-ui",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-admin-ui/compare/${old}...${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "0.5.x-dev"
+                },
+                "version-constants": {
+                    "::PACKAGE_VERSION": "src/class-admin-menu.php"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Generic Jetpack wp-admin UI elements",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-admin-ui"
+        },
+        {
+            "name": "automattic/jetpack-assets",
+            "version": "4.3.1-alpha.1753779256",
+            "version_normalized": "4.3.1.0-alpha1753779256",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
+                "reference": "03fcf7f2a85c445a771d0af524b3e3d174b30a46"
+            },
+            "require": {
+                "automattic/jetpack-constants": "^3.0.8",
+                "automattic/jetpack-status": "^6.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "brain/monkey": "^2.6.2",
+                "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-assets",
+                "textdomain": "jetpack-assets",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-assets/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "4.3.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "actions.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "build-development": [
+                    "pnpm run build"
+                ],
+                "build-production": [
+                    "pnpm run build-production"
+                ],
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "pnpm concurrently --names php,js 'php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\"' 'pnpm:test-coverage'"
+                ],
+                "test-js": [
+                    "pnpm run test"
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Asset management utilities for Jetpack ecosystem packages",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-assets"
+        },
+        {
+            "name": "automattic/jetpack-autoloader",
+            "version": "5.0.9",
+            "version_normalized": "5.0.9.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
+                "reference": "61c90ddf6658df8f185c6a2631d82ff967bd444a"
+            },
+            "require": {
+                "composer-plugin-api": "^2.2",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "composer/composer": "^2.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "autotagger": true,
+                "class": "Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin",
+                "mirror-repo": "Automattic/jetpack-autoloader",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-autoloader/compare/v${old}...v${new}"
+                },
+                "version-constants": {
+                    "::VERSION": "src/AutoloadGenerator.php"
+                },
+                "branch-alias": {
+                    "dev-trunk": "5.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/AutoloadGenerator.php"
+                ],
+                "psr-4": {
+                    "Automattic\\Jetpack\\Autoloader\\": "src"
+                }
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"./tests/php/tmp/coverage-report.php\"",
+                    "php ./tests/php/bin/test-coverage.php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Creates a custom autoloader for a plugin or theme.",
+            "keywords": [
+                "autoload",
+                "autoloader",
+                "composer",
+                "jetpack",
+                "plugin",
+                "wordpress"
+            ],
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../automattic/jetpack-autoloader"
+        },
+        {
+            "name": "automattic/jetpack-blocks",
+            "version": "3.1.0",
+            "version_normalized": "3.1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-blocks",
+                "reference": "c7047c7bfa5d9efb2241beb68aba5ed973a63be2"
+            },
+            "require": {
+                "automattic/jetpack-constants": "^3.0.8",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/jetpack-test-environment": "@dev",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "brain/monkey": "^2.6.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-blocks",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-blocks/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "3.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Register and manage blocks within a plugin. Used to manage block registration, enqueues, and more.",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-blocks"
+        },
+        {
+            "name": "automattic/jetpack-composer-plugin",
+            "version": "4.0.5",
+            "version_normalized": "4.0.5.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-composer-plugin",
+                "reference": "f8607eb20655278ebea9119c495900bef47b8b83"
+            },
+            "require": {
+                "composer-plugin-api": "^2.2",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "composer/composer": "^2.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "plugin-modifies-install-path": true,
+                "class": "Automattic\\Jetpack\\Composer\\Plugin",
+                "mirror-repo": "Automattic/jetpack-composer-plugin",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-composer-plugin/compare/v${old}...v${new}"
+                },
+                "autotagger": true,
+                "branch-alias": {
+                    "dev-trunk": "4.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "A custom installer plugin for Composer to move Jetpack packages out of `vendor/` so WordPress's translation infrastructure will find their strings.",
+            "keywords": [
+                "composer",
+                "i18n",
+                "jetpack",
+                "plugin"
+            ],
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../automattic/jetpack-composer-plugin"
+        },
+        {
+            "name": "automattic/jetpack-connection",
+            "version": "6.16.2-alpha.1753760922",
+            "version_normalized": "6.16.2.0-alpha1753760922",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-connection",
+                "reference": "b6b25adcfdd5c7f9ff0ce166fc25348ee8e6d4b8"
+            },
+            "require": {
+                "automattic/jetpack-a8c-mc-stats": "^3.0.5",
+                "automattic/jetpack-admin-ui": "^0.5.10",
+                "automattic/jetpack-assets": "^4.3.1-alpha",
+                "automattic/jetpack-constants": "^3.0.8",
+                "automattic/jetpack-redirect": "^3.0.8",
+                "automattic/jetpack-roles": "^3.0.8",
+                "automattic/jetpack-status": "^6.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/jetpack-test-environment": "@dev",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "brain/monkey": "^2.6.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-connection",
+                "textdomain": "jetpack-connection",
+                "version-constants": {
+                    "::PACKAGE_VERSION": "src/class-package-version.php"
+                },
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-connection/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "6.16.x-dev"
+                },
+                "dependencies": {
+                    "test-only": [
+                        "packages/licensing",
+                        "packages/sync"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "actions.php"
+                ],
+                "classmap": [
+                    "legacy",
+                    "src/",
+                    "src/webhooks",
+                    "src/identity-crisis"
+                ]
+            },
+            "scripts": {
+                "build-production": [
+                    "pnpm run build-production"
+                ],
+                "build-development": [
+                    "pnpm run build"
+                ],
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Everything needed to connect to the Jetpack infrastructure",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-connection"
+        },
+        {
+            "name": "automattic/jetpack-constants",
+            "version": "3.0.8",
+            "version_normalized": "3.0.8.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
+                "reference": "4c530de51a7108149271062e204c261465d41ea4"
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "brain/monkey": "^2.6.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-constants",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-constants/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "A wrapper for defining constants in a more testable way.",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-constants"
+        },
+        {
+            "name": "automattic/jetpack-paypal-payments",
+            "version": "0.3.0",
+            "version_normalized": "0.3.0.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-paypal-payments",
+                "reference": "9ffb7176f742353fa91408fa6aa5f407666c4109"
+            },
+            "require": {
+                "automattic/jetpack-assets": "^4.3.1-alpha",
+                "automattic/jetpack-blocks": "^3.1.0",
+                "automattic/jetpack-connection": "^6.16.2-alpha",
+                "automattic/jetpack-plans": "^0.9.0",
+                "automattic/jetpack-status": "^6.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/jetpack-test-environment": "@dev",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "branch-alias": {
+                    "dev-trunk": "0.3.x-dev"
+                },
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-paypal-payments/compare/v${old}...v${new}"
+                },
+                "mirror-repo": "Automattic/jetpack-paypal-payments",
+                "textdomain": "jetpack-paypal-payments",
+                "version-constants": {
+                    "::PACKAGE_VERSION": "src/class-paypal-payments.php"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "build-production": [
+                    "pnpm run build-production"
+                ],
+                "build-development": [
+                    "pnpm run build"
+                ],
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ],
+                "test-js": [
+                    "pnpm run test:js"
+                ],
+                "watch": [
+                    "Composer\\Config::disableProcessTimeout",
+                    "pnpm run watch"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Add PayPal, credit, and debit card payment buttons with minimal setup. Good for collecting donations or payments for products and services.",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-paypal-payments"
+        },
+        {
+            "name": "automattic/jetpack-plans",
+            "version": "0.9.0",
+            "version_normalized": "0.9.0.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-plans",
+                "reference": "80df4c9007e4a5e03585826f0670d751be51f350"
+            },
+            "require": {
+                "automattic/jetpack-connection": "^6.16.2-alpha",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/jetpack-status": "^6.0.0",
+                "automattic/jetpack-test-environment": "@dev",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-plans",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-plans/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "0.9.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ],
+                "build-production": [
+                    "echo 'Add your build step to composer.json, please!'"
+                ],
+                "build-development": [
+                    "echo 'Add your build step to composer.json, please!'"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Fetch information about Jetpack Plans from wpcom",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../automattic/jetpack-plans"
+        },
+        {
+            "name": "automattic/jetpack-redirect",
+            "version": "3.0.8",
+            "version_normalized": "3.0.8.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-redirect",
+                "reference": "b8ec6df4ac1041aa53c23eccac5aeb609bf6ce25"
+            },
+            "require": {
+                "automattic/jetpack-status": "^6.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "brain/monkey": "^2.6.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-redirect",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-redirect/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Utilities to build URLs to the jetpack.com/redirect/ service",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-redirect"
+        },
+        {
+            "name": "automattic/jetpack-roles",
+            "version": "3.0.8",
+            "version_normalized": "3.0.8.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-roles",
+                "reference": "43798739e2671e40e61b088be446fd4143ac9216"
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "brain/monkey": "^2.6.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-roles",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-roles/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Utilities, related with user roles and capabilities.",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-roles"
+        },
+        {
+            "name": "automattic/jetpack-status",
+            "version": "6.0.0",
+            "version_normalized": "6.0.0.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-status",
+                "reference": "84ec89f680cf24d5df0243693baa0e94cdf71cbd"
+            },
+            "require": {
+                "automattic/jetpack-constants": "^3.0.8",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^6.0.5",
+                "automattic/jetpack-connection": "@dev",
+                "automattic/jetpack-ip": "^0.4.9",
+                "automattic/jetpack-plans": "@dev",
+                "automattic/phpunit-select-config": "^1.0.3",
+                "brain/monkey": "^2.6.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-status",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-status/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "6.0.x-dev"
+                },
+                "dependencies": {
+                    "test-only": [
+                        "packages/connection",
+                        "packages/plans"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Used to retrieve information about the current status of Jetpack and the site overall.",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-status"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

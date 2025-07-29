@@ -1,0 +1,68 @@
+{
+	"name": "automattic/jetpack-paypal-payments",
+	"description": "Add PayPal, credit, and debit card payment buttons with minimal setup. Good for collecting donations or payments for products and services.",
+	"type": "jetpack-library",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=7.2",
+		"automattic/jetpack-assets": "^4.3.1-alpha",
+		"automattic/jetpack-plans": "^0.9.0",
+		"automattic/jetpack-connection": "^6.16.2-alpha",
+		"automattic/jetpack-blocks": "^3.1.0",
+		"automattic/jetpack-status": "^6.0.0"
+	},
+	"require-dev": {
+		"yoast/phpunit-polyfills": "^4.0.0",
+		"automattic/jetpack-changelogger": "^6.0.5",
+		"automattic/jetpack-test-environment": "@dev",
+		"automattic/phpunit-select-config": "^1.0.3"
+	},
+	"autoload": {
+		"classmap": [
+			"src/"
+		]
+	},
+	"scripts": {
+		"build-production": [
+			"pnpm run build-production"
+		],
+		"build-development": [
+			"pnpm run build"
+		],
+		"phpunit": [
+			"phpunit-select-config phpunit.#.xml.dist --colors=always"
+		],
+		"test-coverage": [
+			"php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+		],
+		"test-php": [
+			"@composer phpunit"
+		],
+		"test-js": [
+			"pnpm run test:js"
+		],
+		"watch": [
+			"Composer\\Config::disableProcessTimeout",
+			"pnpm run watch"
+		]
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"autotagger": true,
+		"branch-alias": {
+			"dev-trunk": "0.3.x-dev"
+		},
+		"changelogger": {
+			"link-template": "https://github.com/Automattic/jetpack-paypal-payments/compare/v${old}...v${new}"
+		},
+		"mirror-repo": "Automattic/jetpack-paypal-payments",
+		"textdomain": "jetpack-paypal-payments",
+		"version-constants": {
+			"::PACKAGE_VERSION": "src/class-paypal-payments.php"
+		}
+	},
+	"suggest": {
+		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+	}
+}
