@@ -6,19 +6,19 @@ return array(
   'packages' => array(
     'jetpack-admin-ui' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
-      'ver' => '0.5.11-alpha1753906593',
+      'ver' => '0.5.11',
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '4.3.2-alpha1753906593',
+      'ver' => '4.3.2',
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.17.0-alpha1754297358',
+      'ver' => '6.17.0',
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.4.0-alpha1754059444',
+      'ver' => '0.4.0',
     ),
   ),
 );
