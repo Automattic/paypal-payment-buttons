@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Working PayPal payment button block with availability data
 
 ### Changed
+- Removed admin page for PayPal Payment Buttons plugin.
 - Update package dependencies.
 - Updates readme.txt and adds assets for distribution.
 
