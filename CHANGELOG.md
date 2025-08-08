@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Update package dependencies.
+- Updates readme.txt and adds assets for distribution.
 
 ## 0.1.0 - 2025-07-25
 ### Added
