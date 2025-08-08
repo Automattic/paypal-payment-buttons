@@ -10,15 +10,15 @@ return array(
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '4.3.2',
+      'ver' => '4.3.3-alpha1754624909',
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.17.0',
+      'ver' => '6.17.1-alpha1754624909',
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.4.1-alpha1754515121',
+      'ver' => '0.4.1-alpha1754624909',
     ),
   ),
 );
