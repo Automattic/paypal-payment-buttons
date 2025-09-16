@@ -7,7 +7,7 @@
 		"automattic/jetpack-autoloader": "^5.0.10",
 		"automattic/jetpack-assets": "^4.3.7",
 		"automattic/jetpack-composer-plugin": "^4.0.5",
-		"automattic/jetpack-paypal-payments": "^0.5.4-alpha",
+		"automattic/jetpack-paypal-payments": "^0.5.4",
 		"automattic/jetpack-blocks": "^3.1.1"
 	},
 	"require-dev": {
@@ -59,6 +59,6 @@
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
 		},
-		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_2_0_alpha"
+		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_3_0"
 	}
 }
