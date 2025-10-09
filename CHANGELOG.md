@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Update package dependencies.
+- Update short description for plugin
 
 ## 0.3.0 - 2025-09-16
 ### Changed
