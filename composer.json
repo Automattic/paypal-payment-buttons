@@ -13,7 +13,6 @@
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-changelogger": "^6.0.7",
-		"automattic/jetpack-test-environment": "@dev",
 		"automattic/phpunit-select-config": "^1.0.3"
 	},
 	"autoload": {
@@ -43,6 +42,7 @@
 			"pnpm run watch"
 		]
 	},
+	"repositories": [],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
@@ -51,7 +51,10 @@
 		"beta-plugin-slug": "paypal-payment-buttons",
 		"autorelease": true,
 		"autotagger": true,
-		"wp-plugin-slug": "paypal-payment-buttons"
+		"wp-plugin-slug": "paypal-payment-buttons",
+		"non-mirrored-require-dev": [
+			"automattic/jetpack-test-environment"
+		]
 	},
 	"config": {
 		"allow-plugins": {
@@ -59,6 +62,6 @@
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
 		},
-		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_3_1_alpha"
+		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_3_1"
 	}
 }
