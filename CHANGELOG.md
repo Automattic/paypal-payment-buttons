@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Jetpack: remove getIconColor functions for block icons
+
 ## 0.3.1 - 2025-10-09
 ### Changed
 - Update package dependencies. [#45173] [#45200] [#45229] [#45298] [#45299] [#45334]
