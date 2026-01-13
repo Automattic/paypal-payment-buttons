@@ -18,7 +18,7 @@ return array(
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.6.1-alpha1768324111',
+      'ver' => '0.6.1-alpha1768326783',
     ),
   ),
 );

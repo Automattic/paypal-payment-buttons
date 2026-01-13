@@ -15,9 +15,6 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
-### Removed
-- =
-
 ## 0.3.2 - 2025-11-20
 ### Added
 - Tested up to WordPress 6.9. [#45571]
