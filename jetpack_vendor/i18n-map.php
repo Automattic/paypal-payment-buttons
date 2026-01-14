@@ -14,7 +14,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.20.2-alpha1768323153',
+      'ver' => '6.20.2',
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
