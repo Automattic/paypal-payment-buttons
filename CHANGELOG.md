@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Removed
+- General: Update minimum WordPress version to 6.8.
+
 ## 0.3.2 - 2025-11-20
 ### Added
 - Tested up to WordPress 6.9. [#45571]
