@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Admin Page: Restore border on header component.
+- PayPal Payments Button: fix escaping issue for stacked payments buttons
 
 ## 0.3.2 - 2025-11-20
 ### Added
