@@ -811,16 +811,14 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-status",
-                "reference": "7f9faa9ee215e1630d9cd2d38ddab31f8fef0ca1"
+                "reference": "8ec06fdaef15ed764fb9953585a3efa6fef04ba3"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.9-alpha",
                 "php": ">=7.2"
             },
             "require-dev": {
-                "automattic/jetpack-connection": "@dev",
                 "automattic/jetpack-ip": "^0.4.11-alpha",
-                "automattic/jetpack-plans": "@dev",
                 "automattic/phpunit-select-config": "^1.0.5-alpha",
                 "brain/monkey": "^2.6.2",
                 "yoast/phpunit-polyfills": "^4.0.0"
