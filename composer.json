@@ -5,9 +5,9 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"automattic/jetpack-autoloader": "^5.0.17",
-		"automattic/jetpack-assets": "^4.3.34",
+		"automattic/jetpack-assets": "^4.3.35",
 		"automattic/jetpack-composer-plugin": "^4.0.6",
-		"automattic/jetpack-paypal-payments": "^0.6.19-alpha",
+		"automattic/jetpack-paypal-payments": "^0.6.20-alpha",
 		"automattic/jetpack-blocks": "^3.3.1"
 	},
 	"require-dev": {
