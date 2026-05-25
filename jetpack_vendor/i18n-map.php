@@ -14,11 +14,11 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '8.4.0-alpha1779497681',
+      'ver' => '8.4.0',
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.7.0-alpha1779302993',
+      'ver' => '0.7.0',
     ),
   ),
 );
