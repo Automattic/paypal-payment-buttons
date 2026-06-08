@@ -4,16 +4,16 @@
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-autoloader": "^5.0.19-alpha",
-		"automattic/jetpack-assets": "^4.3.41-alpha",
-		"automattic/jetpack-composer-plugin": "^4.0.8-alpha",
+		"automattic/jetpack-autoloader": "^5.0.19",
+		"automattic/jetpack-assets": "^4.3.41",
+		"automattic/jetpack-composer-plugin": "^4.0.8",
 		"automattic/jetpack-paypal-payments": "^0.7.2-alpha",
 		"automattic/jetpack-blocks": "^3.3.4-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "^1.0.8-alpha"
+		"automattic/phpunit-select-config": "^1.0.8"
 	},
 	"autoload": {
 		"classmap": [
