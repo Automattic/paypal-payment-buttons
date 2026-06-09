@@ -59,7 +59,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php'
 	),
 	'Automattic\\Jetpack\\Blocks' => array(
-		'version' => '3.3.4.0-alpha1780671753',
+		'version' => '3.3.4.0-alpha1781004794',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-blocks/src/class-blocks.php'
 	),
 	'Automattic\\Jetpack\\Composer\\Manager' => array(
