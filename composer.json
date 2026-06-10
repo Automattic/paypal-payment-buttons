@@ -5,10 +5,10 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"automattic/jetpack-autoloader": "^5.0.19",
-		"automattic/jetpack-assets": "^4.3.42-alpha",
+		"automattic/jetpack-assets": "^4.3.43-alpha",
 		"automattic/jetpack-composer-plugin": "^4.0.8",
 		"automattic/jetpack-paypal-payments": "^0.7.3-alpha",
-		"automattic/jetpack-blocks": "^3.3.5-alpha"
+		"automattic/jetpack-blocks": "^3.3.5"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
