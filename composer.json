@@ -7,7 +7,7 @@
 		"automattic/jetpack-autoloader": "^5.0.20",
 		"automattic/jetpack-assets": "^4.4.3",
 		"automattic/jetpack-composer-plugin": "^4.0.8",
-		"automattic/jetpack-paypal-payments": "^0.7.7",
+		"automattic/jetpack-paypal-payments": "^0.7.8-alpha",
 		"automattic/jetpack-blocks": "^3.3.5"
 	},
 	"require-dev": {
