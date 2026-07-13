@@ -22,7 +22,7 @@ return array(
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.7.8-alpha1783708168',
+      'ver' => '0.7.8-alpha1783953827',
     ),
   ),
 );
