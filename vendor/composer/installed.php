@@ -47,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-blocks' => array(
-            'pretty_version' => '3.3.5',
-            'version' => '3.3.5.0',
-            'reference' => 'd343505029cbdcf7930ae369bdcc9c46715f58a2',
+            'pretty_version' => '3.3.6-alpha.1785760816',
+            'version' => '3.3.6.0-alpha1785760816',
+            'reference' => '2313e714ae2d6e7c5555a1c661c9f425c9623697',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blocks',
             'aliases' => array(),
@@ -94,7 +94,7 @@
         'automattic/jetpack-paypal-payments' => array(
             'pretty_version' => '0.7.10',
             'version' => '0.7.10.0',
-            'reference' => '3c6ac6b4d08b28073173dd14bbf1e406f20f5010',
+            'reference' => 'e985e37a119e1f3619d9c0952690df58af4b2d6f',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-paypal-payments',
             'aliases' => array(),
