@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Update package dependencies.
 
+### Removed
+- Updated PHP version requirements to PHP 7.4 or newer.
+
 ## 0.4.0 - 2026-04-11
 ### Added
 - IDC: Add revalidation for IDCs. [#46268]
