@@ -14,7 +14,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '9.1.0-alpha1788268718',
+      'ver' => '9.1.0-alpha1788269986',
     ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
@@ -22,7 +22,7 @@ return array(
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.8.0-alpha1787829579',
+      'ver' => '0.8.0-alpha1788269986',
     ),
   ),
   'paths' => array(
