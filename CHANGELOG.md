@@ -22,6 +22,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Updated PHP version requirements to PHP 7.4 or newer.
 
+### Fixed
+- Status: Detect a site served on any 127.0.0.0/8 loopback address, or on 0.0.0.0, as a local site.
+
 ## 0.4.0 - 2026-04-11
 ### Added
 - IDC: Add revalidation for IDCs. [#46268]
