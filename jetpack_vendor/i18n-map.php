@@ -16,13 +16,17 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
       'ver' => '9.1.2-alpha1788943628',
     ),
+    'jetpack-feature-flags' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-feature-flags',
+      'ver' => '0.2.0',
+    ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
       'ver' => '0.6.0',
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.8.2-alpha1788895071',
+      'ver' => '0.9.0-alpha1788962330',
     ),
   ),
   'paths' => array(
