@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - General: Update minimum WordPress version to 6.9.
 - General: Update minimum WordPress version to 7.0.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Move the payment button's product form into the block settings sidebar, and label its primary button Create New or Save instead of repeating the display format.
 - Remove unneeded development and documentation files from the published plugin.
 - Tested up to WordPress 7.0.
 - Tested up to WordPress 7.1.
