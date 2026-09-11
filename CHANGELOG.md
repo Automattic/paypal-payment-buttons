@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add API-managed payment buttons behind a feature flag that is not yet enabled. Once it is on, you can connect a PayPal account from WordPress, create and manage payment links without leaving the editor, choose a Button, Link, or QR format, and pick a Light, Auto, or Dark style preset.
 
 ### Changed
+- Create, update and delete the PayPal payment with the post instead of from a Create New button: the payment is written when the post is saved, and removed when the post is saved without its block and no other published post uses it.
 - General: Update minimum WordPress version to 6.9.
 - General: Update minimum WordPress version to 7.0.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
@@ -56,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 - Report a PayPal platform configuration problem directly instead of asking the merchant to try again, which could never help.
 - Say how many published posts embed a payment link before it is deleted from the admin.
 - Send the "Open PayPal Dashboard" link to the sandbox app list when connecting in sandbox, instead of always opening the live one.
+- Send the product image to PayPal so it appears on the hosted checkout.
 - Show that PayPal is disconnected instead of reporting a connected account, and offer a Reconnect button. Disconnecting now says it applies to the whole site.
 - Show the option price on the published page when the product options have their own prices.
 - Show the payment a duplicated block actually points at, so two blocks sharing one PayPal payment can no longer display different products or prices.
