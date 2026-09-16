@@ -62,6 +62,7 @@ This is an alpha version! The changes listed here are not final.
 - Open PayPal onboarding in a sized window instead of a stray browser tab when PayPal's onboarding script is unavailable.
 - Report a PayPal platform configuration problem directly instead of asking the merchant to try again, which could never help.
 - Say how many published posts embed a payment link before it is deleted from the admin.
+- Say so when opening a post picks up changes made to the payment link elsewhere. The block used to take them silently, so a price or description edited in PayPal's dashboard, or by another block sharing the same link, changed under the merchant with nothing shown. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 - Send the "Open PayPal Dashboard" link to the sandbox app list when connecting in sandbox, instead of always opening the live one.
 - Send the product image to PayPal so it appears on the hosted checkout.
 - Show that PayPal is disconnected instead of reporting a connected account, and offer a Reconnect button. Disconnecting now says it applies to the whole site.
