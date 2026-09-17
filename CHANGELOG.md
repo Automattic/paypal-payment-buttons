@@ -72,6 +72,7 @@ This is an alpha version! The changes listed here are not final.
 - Show the PayPal Payment Links admin list and detail pages fresh after a link is created, edited, or deleted, instead of serving a cached copy for up to five minutes.
 - Status: Detect a site served on any 127.0.0.0/8 loopback address, or on 0.0.0.0, as a local site.
 - Stop accepting prices with decimals for Japanese yen, Hungarian forint and New Taiwan dollar, which PayPal rejects, and remove the Indian rupee, which PayPal does not support.
+- Stop a save overwriting payment link settings before the block has loaded them, and keep a value edited while the link is still loading.
 - Stop rendering a button for a payment link deleted through this site, warn in the editor that the link is gone before a save recreates it, and list the posts still embedding it after a delete from the admin page.
 - Stop the block retrying the PayPal onboarding link forever when the request fails.
 - Take the displayed price from the option group PayPal is actually pricing.
