@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Offer Connect with PayPal on WordPress.com and Jetpack-connected sites, instead of only after PayPal is already connected.
 - Open PayPal's onboarding window when you click Connect with PayPal, instead of covering the editor with a blank overlay.
 - Open PayPal onboarding in a sized window instead of a stray browser tab when PayPal's onboarding script is unavailable.
+- Removing a block no longer deletes its payment link from PayPal. The same link can be used by other posts, an email or a printed QR code, so it stays until it is deleted on purpose.
 - Report a PayPal platform configuration problem directly instead of asking the merchant to try again, which could never help.
 - Say how many published posts embed a payment link before it is deleted from the admin.
 - Say so when opening a post picks up changes made to the payment link elsewhere. The block used to take them silently, so a price or description edited in PayPal's dashboard, or by another block sharing the same link, changed under the merchant with nothing shown. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
