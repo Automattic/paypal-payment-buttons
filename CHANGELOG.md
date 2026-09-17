@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Move the PayPal connection wizard into the block settings sidebar, with the block itself only saying a PayPal business account is needed.
 - Remove unneeded development and documentation files from the published plugin.
 - Require an acknowledgement before a payment link is deleted, from the block and from the admin page, and document that PayPal cannot pause or restore a deleted link.
+- Show the result of deleting a link, disconnecting, or picking an existing link in a snackbar.
 - Tested up to WordPress 7.0.
 - Tested up to WordPress 7.1.
 - Updated package dependencies.
