@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Label the admin menu item "PayPal Payment Links" instead of "Payment Links", so it is recognisable under the Jetpack menu.
 - Move the payment button's product form into the block settings sidebar, and label its primary button Create New or Save instead of repeating the display format.
 - Move the PayPal connection wizard into the block settings sidebar, with the block itself only saying a PayPal business account is needed.
+- Open a saved payment link on its details in the block settings sidebar, with the form behind Edit. The notice saying when changes reach PayPal is gone, and the warning that a link changed at PayPal also shows on the details view.
 - Remove unneeded development and documentation files from the published plugin.
 - Require an acknowledgement before a payment link is deleted, from the block and from the admin page, and document that PayPal cannot pause or restore a deleted link.
 - Show the result of deleting a link, disconnecting, or picking an existing link in a snackbar.
