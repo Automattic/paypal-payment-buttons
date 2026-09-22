@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Add an account menu to the top of the block settings sidebar, with links to PayPal's checkout settings and transactions, and a Log out showing the connected account. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 - Add API-managed payment buttons behind a feature flag that is not yet enabled. Once it is on, you can connect a PayPal account from WordPress, create and manage payment links without leaving the editor, choose a Button, Link, or QR format, and style it with your own colors, size and border.
 - Add a Product ID field, shipping fees, a handling fee and a discount, let tax be a flat amount as well as a percentage, check every fee against the decimal places its currency allows, hold a tax rate under 100% and to two decimal places, rework the customer note fields, keep the line breaks inside a product description, and match the Checkout Options controls to the design. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
+- Add Change item to a saved payment link's menu in the block settings sidebar, to switch the button to another of the account's payment links.
+- Ask whether to save or discard unsaved changes when leaving a saved payment link's form in the block settings sidebar.
+- Give each link in the existing links list a menu to duplicate it into a new payment link or delete it, and let the new link's form go back to the list.
 - Offer the account's existing payment links when a new block is added, so a block can reuse one instead of creating another.
 - The editor canvas draws what the published block will look like, and each format gets its own settings in a new Styles tab: text and background colors with a contrast warning, a Fill or Outline style, text size, width, border, and a "Powered by PayPal" toggle. Buttons, links and QR codes each get the settings that apply to them. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 
@@ -61,15 +64,18 @@ This is an alpha version! The changes listed here are not final.
 - Load PayPal's onboarding script into the editor canvas so the Connect with PayPal button opens PayPal's window instead of a new browser tab.
 - Log a notice when stored PayPal credentials cannot be decrypted and are removed, instead of removing them silently.
 - Make the Copy Link button work in the payment button's QR code panel, where clicking it previously did nothing.
+- Mark the post as changed when a payment button is updated to match its link on PayPal, so the change can be saved and shown on the page.
 - Offer Connect with PayPal on WordPress.com and Jetpack-connected sites, instead of only after PayPal is already connected.
 - Open PayPal's onboarding window when you click Connect with PayPal, instead of covering the editor with a blank overlay.
 - Open PayPal onboarding in a sized window instead of a stray browser tab when PayPal's onboarding script is unavailable.
+- Reject a return URL over the 127 characters PayPal accepts, and say so in the block's form.
 - Removing a block no longer deletes its payment link from PayPal. The same link can be used by other posts, an email or a printed QR code, so it stays until it is deleted on purpose.
 - Report a PayPal platform configuration problem directly instead of asking the merchant to try again, which could never help.
 - Say how many published posts embed a payment link before it is deleted from the admin.
 - Say so when opening a post picks up changes made to the payment link elsewhere. The block used to take them silently, so a price or description edited in PayPal's dashboard, or by another block sharing the same link, changed under the merchant with nothing shown. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 - Send the "Open PayPal Dashboard" link to the sandbox app list when connecting in sandbox, instead of always opening the live one.
 - Send the product image to PayPal so it appears on the hosted checkout.
+- Show a payment link's hosted ID without its PLB- prefix in the block settings sidebar, so it no longer wraps.
 - Show that PayPal is disconnected instead of reporting a connected account, and offer a Reconnect button. Disconnecting now says it applies to the whole site.
 - Show the option price on the published page when the product options have their own prices.
 - Show the payment a duplicated block actually points at, so two blocks sharing one PayPal payment can no longer display different products or prices.
