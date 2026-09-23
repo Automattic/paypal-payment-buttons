@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Create, update and delete the PayPal payment with the post instead of from a Create New button: the payment is written when the post is saved, and removed when the post is saved without its block and no other published post uses it.
 - General: Update minimum WordPress version to 6.9.
 - General: Update minimum WordPress version to 7.0.
+- Hide the Styles tab until the block has a payment link, and keep the existing links list in sync across blocks.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Label the admin menu item "PayPal Payment Links" instead of "Payment Links", so it is recognisable under the Jetpack menu.
 - Move the payment button's product form into the block settings sidebar, and label its primary button Create New or Save instead of repeating the display format.
@@ -66,6 +67,7 @@ This is an alpha version! The changes listed here are not final.
 - Log a notice when stored PayPal credentials cannot be decrypted and are removed, instead of removing them silently.
 - Make the Copy Link button work in the payment button's QR code panel, where clicking it previously did nothing.
 - Mark the post as changed when a payment button is updated to match its link on PayPal, so the change can be saved and shown on the page.
+- Match the block's editor preview to the published button, and show "Powered by PayPal" by default.
 - Offer Connect with PayPal on WordPress.com and Jetpack-connected sites, instead of only after PayPal is already connected.
 - Open PayPal's onboarding window when you click Connect with PayPal, instead of covering the editor with a blank overlay.
 - Open PayPal onboarding in a sized window instead of a stray browser tab when PayPal's onboarding script is unavailable.
