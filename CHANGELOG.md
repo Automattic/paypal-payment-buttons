@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Add API-managed payment buttons behind a feature flag that is not yet enabled. Once it is on, you can connect a PayPal account from WordPress, create and manage payment links without leaving the editor, choose a Button, Link, or QR format, and style it with your own colors, size and border.
 - Add a Product ID field, shipping fees, a handling fee and a discount, let tax be a flat amount as well as a percentage, check every fee against the decimal places its currency allows, hold a tax rate under 100% and to two decimal places, rework the customer note fields, keep the line breaks inside a product description, and match the Checkout Options controls to the design. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 - Add Change item to a saved payment link's menu in the block settings sidebar, to switch the button to another of the account's payment links.
+- Add stacked buttons as a display format for PayPal payment buttons.
 - Ask whether to save or discard unsaved changes when leaving a saved payment link's form in the block settings sidebar.
 - Give each link in the existing links list a menu to duplicate it into a new payment link or delete it, and let the new link's form go back to the list.
 - Offer the account's existing payment links when a new block is added, so a block can reuse one instead of creating another.
