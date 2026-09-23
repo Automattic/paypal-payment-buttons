@@ -67,6 +67,7 @@ return array(
     'Automattic\\Jetpack\\Current_Plan' => $vendorDir . '/automattic/jetpack-plans/src/class-current-plan.php',
     'Automattic\\Jetpack\\Errors' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-errors.php',
     'Automattic\\Jetpack\\Feature_Flags\\Feature_Flags' => $baseDir . '/jetpack_vendor/automattic/jetpack-feature-flags/src/class-feature-flags.php',
+    'Automattic\\Jetpack\\Feature_Policy' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-feature-policy.php',
     'Automattic\\Jetpack\\Files' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-files.php',
     'Automattic\\Jetpack\\Heartbeat' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php',
     'Automattic\\Jetpack\\IP\\Utils' => $baseDir . '/jetpack_vendor/automattic/jetpack-ip/src/class-utils.php',
