@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated PHP version requirements to PHP 7.4 or newer.
 
 ### Fixed
+- Allow http return URLs, and show an error in the block when a return URL is invalid.
 - Allow product descriptions up to PayPal's real 2048-character limit, instead of cutting them off at 256.
 - Ask only about changes made since the last post save when leaving a saved payment link's form.
 - Break the PayPal disconnect confirmation into a short summary and a list, so its consequences are readable at a glance.
@@ -67,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Keep the PayPal connection error dismissed, instead of showing it again and asking PayPal for another onboarding link.
 - Load PayPal's onboarding script into the editor canvas so the Connect with PayPal button opens PayPal's window instead of a new browser tab.
 - Log a notice when stored PayPal credentials cannot be decrypted and are removed, instead of removing them silently.
+- Make a percentage Width the same size in the editor as on the published page, fit the QR code's link field and Copy Link button in narrow columns, and remove the connection status and Sandbox badge from the editor canvas.
 - Make the Copy Link button work in the payment button's QR code panel, where clicking it previously did nothing.
 - Make Width size the whole payment button, so the product and "Powered by PayPal" line up with it.
 - Mark the post as changed when a payment button is updated to match its link on PayPal, so the change can be saved and shown on the page.
@@ -74,13 +76,13 @@ This is an alpha version! The changes listed here are not final.
 - Offer Connect with PayPal on WordPress.com and Jetpack-connected sites, instead of only after PayPal is already connected.
 - Open PayPal's onboarding window when you click Connect with PayPal, instead of covering the editor with a blank overlay.
 - Open PayPal onboarding in a sized window instead of a stray browser tab when PayPal's onboarding script is unavailable.
-- Reject a return URL over the 127 characters PayPal accepts, and say so in the block's form.
 - Removing a block no longer deletes its payment link from PayPal. The same link can be used by other posts, an email or a printed QR code, so it stays until it is deleted on purpose.
 - Report a PayPal platform configuration problem directly instead of asking the merchant to try again, which could never help.
 - Say how many published posts embed a payment link before it is deleted from the admin.
 - Say so when opening a post picks up changes made to the payment link elsewhere. The block used to take them silently, so a price or description edited in PayPal's dashboard, or by another block sharing the same link, changed under the merchant with nothing shown. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 - Send the "Open PayPal Dashboard" link to the sandbox app list when connecting in sandbox, instead of always opening the live one.
 - Send the product image to PayPal so it appears on the hosted checkout.
+- Show an error in the block when a return URL is over PayPal's 1024-character limit.
 - Show a payment link's hosted ID without its PLB- prefix in the block settings sidebar, so it no longer wraps.
 - Show that PayPal is disconnected instead of reporting a connected account, and offer a Reconnect button. Disconnecting now says it applies to the whole site.
 - Show the option price on the published page when the product options have their own prices.
