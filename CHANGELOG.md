@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Ask whether to save or discard unsaved changes when leaving a saved payment link's form in the block settings sidebar.
 - Give each link in the existing links list a menu to duplicate it into a new payment link or delete it, and let the new link's form go back to the list.
 - Offer the account's existing payment links when a new block is added, so a block can reuse one instead of creating another.
+- Show a snackbar after a post save that creates or changes a PayPal payment link.
 - The editor canvas draws what the published block will look like, and each format gets its own settings in a new Styles tab: text and background colors with a contrast warning, a Fill or Outline style, text size, width, border, and a "Powered by PayPal" toggle. Buttons, links and QR codes each get the settings that apply to them. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 
 ### Changed
@@ -44,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Allow product descriptions up to PayPal's real 2048-character limit, instead of cutting them off at 256.
+- Ask only about changes made since the last post save when leaving a saved payment link's form.
 - Break the PayPal disconnect confirmation into a short summary and a list, so its consequences are readable at a glance.
 - Close PayPal's onboarding window with the Escape key or its Close button, instead of reloading the editor and losing unsaved changes.
 - Close the PayPal onboarding popup automatically when it returns, instead of leaving it open on a wp-admin screen.
@@ -66,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Load PayPal's onboarding script into the editor canvas so the Connect with PayPal button opens PayPal's window instead of a new browser tab.
 - Log a notice when stored PayPal credentials cannot be decrypted and are removed, instead of removing them silently.
 - Make the Copy Link button work in the payment button's QR code panel, where clicking it previously did nothing.
+- Make Width size the whole payment button, so the product and "Powered by PayPal" line up with it.
 - Mark the post as changed when a payment button is updated to match its link on PayPal, so the change can be saved and shown on the page.
 - Match the block's editor preview to the published button, and show "Powered by PayPal" by default.
 - Offer Connect with PayPal on WordPress.com and Jetpack-connected sites, instead of only after PayPal is already connected.
@@ -89,6 +92,7 @@ This is an alpha version! The changes listed here are not final.
 - Stop rendering a button for a payment link deleted through this site, warn in the editor that the link is gone before a save recreates it, and list the posts still embedding it after a delete from the admin page.
 - Stop the block retrying the PayPal onboarding link forever when the request fails.
 - Take the displayed price from the option group PayPal is actually pricing.
+- The Send via Email card now shows the right price for links priced per option. Before, it showed just "$".
 
 ## 0.4.0 - 2026-04-11
 ### Added
