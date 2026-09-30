@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - The editor canvas draws what the published block will look like, and each format gets its own settings in a new Styles tab: text and background colors with a contrast warning, a Fill or Outline style, text size, width, border, and a "Powered by PayPal" toggle. Buttons, links and QR codes each get the settings that apply to them. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 
 ### Changed
+- Connect with PayPal no longer stores API credentials on the site; PayPal calls for referred sellers are made through WordPress.com.
 - Create, update and delete the PayPal payment with the post instead of from a Create New button: the payment is written when the post is saved, and removed when the post is saved without its block and no other published post uses it.
 - General: Update minimum WordPress version to 6.9.
 - General: Update minimum WordPress version to 7.0.

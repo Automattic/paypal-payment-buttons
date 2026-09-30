@@ -109,6 +109,7 @@ class ComposerStaticInitc4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsâ
         'Automattic\\Jetpack\\PaypalPayments\\PayPal_Partner_Onboarding' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-partner-onboarding.php',
         'Automattic\\Jetpack\\PaypalPayments\\PayPal_Payment_Buttons' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-payment-buttons.php',
         'Automattic\\Jetpack\\PaypalPayments\\PayPal_Payment_Links_List_Table' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-payment-links-list-table.php',
+        'Automattic\\Jetpack\\PaypalPayments\\PayPal_Platform_Client' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-platform-client.php',
         'Automattic\\Jetpack\\PaypalPayments\\PayPal_REST_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-rest-controller.php',
         'Automattic\\Jetpack\\PaypalPayments\\SimplePayments\\Block' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/block/class-block.php',
         'Automattic\\Jetpack\\Paypal_Payments\\Order_REST_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/legacy/class-order-rest-controller.php',
