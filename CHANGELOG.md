@@ -83,7 +83,6 @@ This is an alpha version! The changes listed here are not final.
 - Say how many published posts embed a payment link before it is deleted from the admin.
 - Say so when opening a post picks up changes made to the payment link elsewhere. The block used to take them silently, so a price or description edited in PayPal's dashboard, or by another block sharing the same link, changed under the merchant with nothing shown. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
 - Send the "Open PayPal Dashboard" link to the sandbox app list when connecting in sandbox, instead of always opening the live one.
-- Send the product image to PayPal so it appears on the hosted checkout.
 - Show an error in the block when a return URL is over PayPal's 1024-character limit.
 - Show a payment link's hosted ID without its PLB- prefix in the block settings sidebar, so it no longer wraps.
 - Show that PayPal is disconnected instead of reporting a connected account, and offer a Reconnect button. Disconnecting now says it applies to the whole site.
