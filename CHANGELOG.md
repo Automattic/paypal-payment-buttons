@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 - Open a saved payment link on its details in the block settings sidebar, with the form behind Edit. The notice saying when changes reach PayPal is gone, and the warning that a link changed at PayPal also shows on the details view.
 - Remove unneeded development and documentation files from the published plugin.
 - Require an acknowledgement before a payment link is deleted, from the block and from the admin page, and document that PayPal cannot pause or restore a deleted link.
+- Show PayPal's debug ID in API error messages so failed requests can be traced with PayPal support.
 - Show the result of deleting a link, disconnecting, or picking an existing link in a snackbar.
 - Tested up to WordPress 7.0.
 - Tested up to WordPress 7.1.
