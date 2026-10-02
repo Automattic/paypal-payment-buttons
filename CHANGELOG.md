@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Add stacked buttons as a display format for PayPal payment buttons.
 - Ask whether to save or discard unsaved changes when leaving a saved payment link's form in the block settings sidebar.
 - Give each link in the existing links list a menu to duplicate it into a new payment link or delete it, and let the new link's form go back to the list.
+- Link sellers to their PayPal transactions and to PayPal's refund instructions from the block's account menu and the Payment Links admin page.
 - Offer the account's existing payment links when a new block is added, so a block can reuse one instead of creating another.
 - Show a snackbar after a post save that creates or changes a PayPal payment link.
 - The editor canvas draws what the published block will look like, and each format gets its own settings in a new Styles tab: text and background colors with a contrast warning, a Fill or Outline style, text size, width, border, and a "Powered by PayPal" toggle. Buttons, links and QR codes each get the settings that apply to them. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
@@ -90,6 +91,7 @@ This is an alpha version! The changes listed here are not final.
 - Show the option price on the published page when the product options have their own prices.
 - Show the payment a duplicated block actually points at, so two blocks sharing one PayPal payment can no longer display different products or prices.
 - Show the PayPal Payment Links admin list and detail pages fresh after a link is created, edited, or deleted, instead of serving a cached copy for up to five minutes.
+- Spell "PayPal" with its own capitalization in the connect wizard headings and the wordmark's alt text.
 - Status: Detect a site served on any 127.0.0.0/8 loopback address, or on 0.0.0.0, as a local site.
 - Stop accepting prices with decimals for Japanese yen, Hungarian forint and New Taiwan dollar, which PayPal rejects, and remove the Indian rupee, which PayPal does not support.
 - Stop a save overwriting payment link settings before the block has loaded them, and keep a value edited while the link is still loading.
