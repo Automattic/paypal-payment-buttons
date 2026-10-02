@@ -99,6 +99,7 @@ This is an alpha version! The changes listed here are not final.
 - Stop rendering a button for a payment link deleted through this site, warn in the editor that the link is gone before a save recreates it, and list the posts still embedding it after a delete from the admin page.
 - Stop the block retrying the PayPal onboarding link forever when the request fails.
 - Take the displayed price from the option group PayPal is actually pricing.
+- Tell the merchant when a payment link could not be loaded from PayPal, instead of silently showing stale details.
 - The Send via Email card now shows the right price for links priced per option. Before, it showed just "$".
 
 ## 0.4.0 - 2026-04-11
