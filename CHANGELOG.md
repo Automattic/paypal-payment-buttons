@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Tested up to WordPress 7.1.
 - Updated package dependencies.
 - Update package dependencies.
+- Use PayPal's prescribed wording in the disconnect and log out confirmations.
 
 ### Removed
 - Updated PHP version requirements to PHP 7.4 or newer.
