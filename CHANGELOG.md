@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Offer the account's existing payment links when a new block is added, so a block can reuse one instead of creating another.
 - Show a snackbar after a post save that creates or changes a PayPal payment link.
 - The editor canvas draws what the published block will look like, and each format gets its own settings in a new Styles tab: text and background colors with a contrast warning, a Fill or Outline style, text size, width, border, and a "Powered by PayPal" toggle. Buttons, links and QR codes each get the settings that apply to them. Part of the API-managed payment buttons, behind a feature flag that is not yet enabled.
+- Warn in the editor when the seller's PayPal email is unconfirmed, the account is restricted from receiving payments, or permissions the block needs are missing, and refuse new connections that lack those permissions.
 
 ### Changed
 - Connect with PayPal no longer stores API credentials on the site; PayPal calls for referred sellers are made through WordPress.com.
@@ -42,6 +43,7 @@ This is an alpha version! The changes listed here are not final.
 - Tested up to WordPress 7.1.
 - Updated package dependencies.
 - Update package dependencies.
+- Use PayPal's official logos, unmodified, and match the connect wizard to the design.
 - Use PayPal's prescribed wording in the disconnect and log out confirmations.
 
 ### Removed
