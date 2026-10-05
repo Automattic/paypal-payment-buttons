@@ -104,6 +104,7 @@ This is an alpha version! The changes listed here are not final.
 - Stop the block retrying the PayPal onboarding link forever when the request fails.
 - Take the displayed price from the option group PayPal is actually pricing.
 - Tell the merchant when a payment link could not be loaded from PayPal, instead of silently showing stale details.
+- Tell the merchant when the browser blocks PayPal's onboarding window, instead of failing silently, and let the next Connect click open it.
 - The Send via Email card now shows the right price for links priced per option. Before, it showed just "$".
 
 ## 0.4.0 - 2026-04-11
