@@ -72,6 +72,7 @@ This is an alpha version! The changes listed here are not final.
 - Include PayPal's own error and debug ID when Payment Links & Buttons access is refused, instead of guessing at the cause.
 - Include the PayPal partner attribution code in every copied and emailed payment link, matching the link the published button uses.
 - Keep the PayPal connection error dismissed, instead of showing it again and asking PayPal for another onboarding link.
+- Let a seller connect the same PayPal account on more than one site without the earlier site losing access.
 - Load PayPal's onboarding script into the editor canvas so the Connect with PayPal button opens PayPal's window instead of a new browser tab.
 - Log a notice when stored PayPal credentials cannot be decrypted and are removed, instead of removing them silently.
 - Make a percentage Width the same size in the editor as on the published page, fit the QR code's link field and Copy Link button in narrow columns, and remove the connection status and Sandbox badge from the editor canvas.
