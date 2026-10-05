@@ -71,6 +71,7 @@ This is an alpha version! The changes listed here are not final.
 - Go straight to the API credentials step on a site with no WordPress.com connection, instead of offering Connect with PayPal.
 - Include PayPal's own error and debug ID when Payment Links & Buttons access is refused, instead of guessing at the cause.
 - Include the PayPal partner attribution code in every copied and emailed payment link, matching the link the published button uses.
+- Keep keyboard focus on the PayPal onboarding overlay while it is open, return it to the Connect button on close, and hide Close once the seller has finished at PayPal.
 - Keep the PayPal connection error dismissed, instead of showing it again and asking PayPal for another onboarding link.
 - Let a seller connect the same PayPal account on more than one site without the earlier site losing access.
 - Load PayPal's onboarding script into the editor canvas so the Connect with PayPal button opens PayPal's window instead of a new browser tab.
