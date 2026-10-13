@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - Use PayPal's prescribed wording in the disconnect and log out confirmations.
 
 ### Removed
+- Remove the product image field from the block editor form until PayPal payment links can carry an image; blocks that already hold one keep showing it.
 - Updated PHP version requirements to PHP 7.4 or newer.
 
 ### Fixed
