@@ -59,6 +59,7 @@ This is an alpha version! The changes listed here are not final.
 - Close the PayPal onboarding popup automatically when it returns, instead of leaving it open on a wp-admin screen.
 - Complete PayPal onboarding using PayPal's own onboarding SDK, so connecting an account finishes instead of stopping at "Merchant integration info not available".
 - Connect a PayPal account in a separate window, so finishing onboarding no longer reloads the editor and discards an unsaved post.
+- Connection: Translate the Connectors card's text on sites that don't use English.
 - Discard a PayPal connection that fails its final checks, instead of leaving the site looking connected while reporting an error.
 - Encode the PayPal payment link in the QR code behind the button's Show Link or QR Code toggle, instead of the page the button sits on.
 - Fix "Connect with PayPal" always failing with "Request is not well-formed, syntactically incorrect, or violates schema." The seller nonce was 43 characters, one below the minimum PayPal enforces.
