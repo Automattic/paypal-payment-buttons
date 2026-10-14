@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Create, update and delete the PayPal payment with the post instead of from a Create New button: the payment is written when the post is saved, and removed when the post is saved without its block and no other published post uses it.
 - General: Update minimum WordPress version to 6.9.
 - General: Update minimum WordPress version to 7.0.
+- Gray the preview button in the Create new form until the link is created.
 - Hide the PayPal sandbox option in the connection wizard behind a feature flag; the wizard connects to production only unless the flag is on.
 - Hide the Styles tab until the block has a payment link, and keep the existing links list in sync across blocks.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
@@ -58,6 +59,7 @@ This is an alpha version! The changes listed here are not final.
 - Break the PayPal disconnect confirmation into a short summary and a list, so its consequences are readable at a glance.
 - Close PayPal's onboarding window with the Escape key or its Close button, instead of reloading the editor and losing unsaved changes.
 - Close the PayPal onboarding popup automatically when it returns, instead of leaving it open on a wp-admin screen.
+- Collect the shipping address without a shipping fee, from a new "Shipping address" toggle. Tax or shipping from PayPal settings now shows an error until the address is on.
 - Complete PayPal onboarding using PayPal's own onboarding SDK, so connecting an account finishes instead of stopping at "Merchant integration info not available".
 - Connect a PayPal account in a separate window, so finishing onboarding no longer reloads the editor and discards an unsaved post.
 - Connection: Translate the Connectors card's text on sites that don't use English.
