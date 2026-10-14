@@ -7,7 +7,7 @@
 		"automattic/jetpack-autoloader": "^6.0.1",
 		"automattic/jetpack-assets": "^5.0.11",
 		"automattic/jetpack-composer-plugin": "^5.0.0",
-		"automattic/jetpack-paypal-payments": "^0.12.2-alpha",
+		"automattic/jetpack-paypal-payments": "^0.12.2",
 		"automattic/jetpack-blocks": "^4.0.0"
 	},
 	"require-dev": {
@@ -45,7 +45,10 @@
 		"release-branch-prefix": "paypal-payment-buttons",
 		"autorelease": true,
 		"autotagger": true,
-		"wp-plugin-slug": "paypal-payment-buttons"
+		"wp-plugin-slug": "paypal-payment-buttons",
+		"non-mirrored-require-dev": [
+			"automattic/jetpack-test-environment"
+		]
 	},
 	"config": {
 		"allow-plugins": {
@@ -53,6 +56,6 @@
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
 		},
-		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_5_0_alpha"
+		"autoloader-suffix": "c4802e05bbcf59fd3b6350e8d3e5482c_paypal_payment_buttonsⓥ0_5_0"
 	}
 }
