@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
 
 ### Changed
+- Move the connection panel's actions into the menus, drop the unused connect Success step, and show Sandbox under Log out for sandbox accounts.
+- Show the PayPal logo and a clearer connect message in the block's placeholder before PayPal is connected.
+- Show the style controls under a saved payment link's details instead of in a Styles tab.
 - Update package dependencies.
 
 ## 0.5.0 - 2026-10-14
