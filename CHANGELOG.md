@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - Show the style controls under a saved payment link's details instead of in a Styles tab.
 - Update package dependencies.
 
+### Fixed
+- Keep the fields of a payment link that the block does not edit when the block is saved.
+
 ## 0.5.0 - 2026-10-14
 ### Added
 - Add a "Manage PayPal Payment Links" link to the block's PayPal Connection panel once the block has a saved link, so the admin page is one click away while editing. [#52273]
