@@ -6,27 +6,27 @@ return array(
   'packages' => array(
     'jetpack-admin-ui' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
-      'ver' => '0.14.7',
+      'ver' => '0.14.8-alpha1792502969',
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '5.0.13',
+      'ver' => '5.0.14-alpha1792502969',
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '9.12.1',
+      'ver' => '9.12.2-alpha1792502969',
     ),
     'jetpack-feature-flags' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-feature-flags',
-      'ver' => '0.2.0',
+      'ver' => '0.2.1-alpha1792502969',
     ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
-      'ver' => '0.7.0',
+      'ver' => '0.7.1-alpha1792502969',
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.13.1-alpha1792484956',
+      'ver' => '0.13.1-alpha1792502969',
     ),
   ),
   'paths' => array(
