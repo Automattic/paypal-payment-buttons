@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Keep the fields of a payment link that the block does not edit when the block is saved.
+- Stop telling editors and authors that PayPal is disconnected when they simply do not manage the connection, and stop offering them a reconnect flow they cannot complete.
 
 ## 0.5.0 - 2026-10-14
 ### Added
