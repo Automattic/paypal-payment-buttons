@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Editor: Stop replacing Jetpack's editor data, which removed the Excerpt field from the post editor on sites that also use Jetpack.
 - Keep the fields of a payment link that the block does not edit when the block is saved.
 - Stop telling editors and authors that PayPal is disconnected when they simply do not manage the connection, and stop offering them a reconnect flow they cannot complete.
 
