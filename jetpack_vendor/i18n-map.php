@@ -6,7 +6,7 @@ return array(
   'packages' => array(
     'jetpack-admin-ui' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
-      'ver' => '0.14.15-alpha1794585417',
+      'ver' => '0.14.15-alpha1794591893',
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
@@ -26,7 +26,7 @@ return array(
     ),
     'jetpack-paypal-payments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-paypal-payments',
-      'ver' => '0.15.0-alpha1794568422',
+      'ver' => '0.15.0-alpha1794591893',
     ),
   ),
   'paths' => array(

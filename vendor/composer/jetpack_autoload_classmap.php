@@ -23,11 +23,11 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php'
 	),
 	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
-		'version' => '0.14.15.0-alpha1794585417',
+		'version' => '0.14.15.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Admin_UI\\Admin_Shell' => array(
-		'version' => '0.14.15.0-alpha1794585417',
+		'version' => '0.14.15.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-shell.php'
 	),
 	'Automattic\\Jetpack\\Assets' => array(
@@ -263,7 +263,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-cookiestate.php'
 	),
 	'Automattic\\Jetpack\\Current_Plan' => array(
-		'version' => '0.16.0.0',
+		'version' => '0.16.1.0-alpha1794591893',
 		'path'    => $vendorDir . '/automattic/jetpack-plans/src/class-current-plan.php'
 	),
 	'Automattic\\Jetpack\\Errors' => array(
@@ -327,71 +327,71 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-paths.php'
 	),
 	'Automattic\\Jetpack\\PayPal_Payments' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/class-paypal-payments.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_API_Client' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-api-client.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Admin_Page' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-admin-page.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Attribute_Mapper' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-attribute-mapper.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Email_Sender' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-email-sender.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_OAuth' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-oauth.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Partner_Onboarding' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-partner-onboarding.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Payment_Buttons' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-payment-buttons.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Payment_Links_List_Table' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-payment-links-list-table.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Platform_Client' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-platform-client.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_REST_Controller' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-rest-controller.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\PayPal_Tracks' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/paypal-payment-buttons/class-paypal-tracks.php'
 	),
 	'Automattic\\Jetpack\\PaypalPayments\\SimplePayments\\Block' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/block/class-block.php'
 	),
 	'Automattic\\Jetpack\\Paypal_Payments\\Order_REST_Controller' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/legacy/class-order-rest-controller.php'
 	),
 	'Automattic\\Jetpack\\Paypal_Payments\\Simple_Payments' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/legacy/class-simple-payments.php'
 	),
 	'Automattic\\Jetpack\\Paypal_Payments\\Widgets\\Simple_Payments_Widget' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/widget/class-simple-payments-widget.php'
 	),
 	'Automattic\\Jetpack\\Plans' => array(
-		'version' => '0.16.0.0',
+		'version' => '0.16.1.0-alpha1794591893',
 		'path'    => $vendorDir . '/automattic/jetpack-plans/src/class-plans.php'
 	),
 	'Automattic\\Jetpack\\Redirect' => array(
@@ -487,7 +487,7 @@ return array(
 		'path'    => $baseDir . '/src/class-paypal-payment-buttons.php'
 	),
 	'PayPal_Payments_Currencies' => array(
-		'version' => '0.15.0.0-alpha1794568422',
+		'version' => '0.15.0.0-alpha1794591893',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-paypal-payments/src/legacy/class-paypal-payments-currencies.php'
 	),
 	'Plugin_Locator' => array(
