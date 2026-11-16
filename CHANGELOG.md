@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin: List the posts and pages using a payment button on its detail view, drafts included, with edit and view links.
 - Connection: Show connection errors on the Connectors card, and keep showing the connection owner when their account connection breaks.
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
+- Show the discount on the button card, with the original price struck through and a discount tag.
 
 ### Changed
 - Call a PayPal payment a payment button everywhere, and payment links and buttons where both are meant. The admin page is now PayPal Payment Buttons.
